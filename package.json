@@ -1,0 +1,39 @@
+{
+  "name": "nodevue",
+  "version": "0.0.0",
+  "description": "My First Node & Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lime1st/nodevue.git"
+  },
+  "keywords": [
+    "nodevue"
+  ],
+  "author": "lime1st",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lime1st/nodevue/issues"
+  },
+  "homepage": "https://github.com/lime1st/nodevue#readme",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.4.0",
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "crypto-js": "^4.1.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "hashmap": "^2.4.0",
+    "mysql": "^2.18.1",
+    "open-graph-scraper": "^4.11.1",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
