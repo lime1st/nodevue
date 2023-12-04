@@ -7,9 +7,9 @@ Promise.promisifyAll(require("mysql/lib/Connection").prototype);
 Promise.promisifyAll(require("mysql/lib/Pool").prototype);
 
 const DB_INFO = {
-  host: "49.50.162.185",
+  host: "",
   user: "mydeal",
-  password: "Seungtaki09!2",
+  password: "",
   database: "mydealdb",
   multipleStatements: true,
   connectionLimit: 5,
